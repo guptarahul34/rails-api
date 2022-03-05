@@ -28,6 +28,8 @@ gem 'rack-cors'
 gem 'active_model_serializers', '~> 0.10.2'
 
 gem 'net-smtp', require: false
+gem 'net-pop', require: false
+gem 'net-imap', require: false
 
 group :development, :test do
   gem 'sqlite3', '~> 1.4'
